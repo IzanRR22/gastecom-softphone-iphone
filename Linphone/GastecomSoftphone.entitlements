@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- VoIP Push — necesario para recibir llamadas con app en background via PushKit -->
+    <!-- Requiere Apple Developer Account y perfil de aprovisionamiento con VoIP capability -->
+    <key>com.apple.developer.pushkit.unrestricted-voip</key>
+    <true/>
+
+    <!-- Entorno APNs: "development" para debug, "production" para App Store/TestFlight -->
+    <key>aps-environment</key>
+    <string>development</string>
+
+    <!-- Acceso a contactos -->
+    <key>com.apple.developer.contacts.notes</key>
+    <true/>
+
+    <!-- Keychain compartido (para credenciales SIP cifradas) -->
+    <key>keychain-access-groups</key>
+    <array>
+        <string>$(AppIdentifierPrefix)es.gastecom.softphone</string>
+    </array>
+</dict>
+</plist>

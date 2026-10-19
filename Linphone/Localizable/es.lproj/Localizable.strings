@@ -1,0 +1,722 @@
+"settings_calls_change_ringtone_title" = "Cambiar tono de llamada";
+"settings_calls_echo_canceller_subtitle" = "Evita que el eco se escuche en el extremo remoto si no hay un cancelador de eco de hardware disponible";
+"settings_calls_echo_canceller_title" = "Utilizar el cancelador de eco de software";
+"settings_calls_enable_fec_title" = "Habilitar FEC de vídeo";
+"settings_calls_enable_video_title" = "Habilitar video";
+"settings_calls_title" = "Llamadas";
+"settings_calls_vibrate_while_ringing_title" = "Vibrar mientras suena la llamada entrante";
+"settings_contacts_add_carddav_server_title" = "Agregar libreta de direcciones CardDAV";
+"settings_contacts_add_ldap_server_title" = "Agregar servidor LDAP";
+"settings_contacts_carddav_name_title" = "Nombre para mostrar";
+"settings_contacts_carddav_password_title" = "Clave";
+"settings_contacts_carddav_server_url_title" = "URL del servidor";
+"settings_contacts_carddav_sync_error_toast" = "Error de sincronización!";
+"settings_contacts_carddav_username_title" = "Nombre de Usuario";
+"settings_contacts_edit_carddav_server_title" = "Editar libreta de direcciones CardDAV";
+"settings_contacts_edit_ldap_server_title" = "Editar servidor LDAP";
+"settings_contacts_ldap_password_title" = "Clave";
+"settings_contacts_title" = "Contactos";
+"settings_conversations_auto_download_title" = "Descarga automática de archivos";
+"dialog_no" = "No";
+"settings_conversations_mark_as_read_when_dismissing_notif_title" = "Marcar la conversación como leída al descartar la notificación del mensaje";
+"settings_conversations_title" = "Conversaciones";
+"settings_meetings_default_layout_title" = "Diseño predeterminado";
+"settings_meetings_layout_active_speaker_label" = "Altavoz activo";
+"settings_meetings_layout_mosaic_label" = "Mosaico";
+"settings_meetings_title" = "Reuniones";
+"settings_network_allow_ipv6" = "Permitir IPv6";
+"settings_network_title" = "Red";
+"settings_network_use_wifi_only" = "Use solo redes Wi-fi";
+"settings_security_enable_vfs_subtitle" = "Advertencia: una vez habilitado, ¡no se puede deshabilitar!";
+"settings_security_enable_vfs_title" = "Cifrar todo";
+"settings_security_prevent_screenshots_title" = "Evitar que se grabe la interfaz";
+"settings_security_title" = "Seguridad";
+"settings_title" = "Ajustes";
+"sip_address_copied_to_clipboard_toast" = "Dirección SIP copiada al portapapeles";
+"sip_address_display_name" = "Nombre para mostrar";
+"sip_address_domain" = "Dominio";
+"start" = "Iniciar";
+"uri_handler_config_success_toast" = "Configuración aplicada satisfactoriamente";
+"username" = "Nombre de Usuario";
+"welcome_page_2_title" = "Segura";
+"welcome_page_3_title" = "Simple";
+"welcome_page_title" = "Bienvenido";
+"account_settings_dialog_invalid_password_hint" = "Clave";
+"account_settings_title" = "Configuración de la cuenta";
+"assistant_account_create" = "Crear";
+"assistant_account_creation_wrong_phone_number" = "Número equivocado?";
+"assistant_account_login" = "Acceso";
+"assistant_account_login_forbidden_error" = "Nombre de usuario o contraseña incorrectos";
+"assistant_account_register" = "Registrar";
+"assistant_account_register_push_notification_not_received_error" = "Notificación push con token de autenticación no recibida en 5 segundos, inténtelo nuevamente más tarde";
+"assistant_account_register_unexpected_error" = "Se produjo un error inesperado, inténtelo de nuevo más tarde";
+"assistant_already_have_an_account" = "Ya tienes una cuenta?";
+"assistant_create_account_using_email_on_our_web_platform" = "Crea una cuenta con tu correo electrónico en:";
+"assistant_dialog_confirm_phone_number_title" = "Confirmar número de teléfono";
+"assistant_dialog_general_terms_and_privacy_policy_title" = "Términos generales y política de privacidad";
+"assistant_dialog_general_terms_label" = "términos generales";
+"assistant_dialog_privacy_policy_label" = "política de privacidad";
+"assistant_login_third_party_sip_account" = "Utilice una cuenta SIP de terceros";
+"assistant_no_account_yet" = "Aún no tienes cuenta?";
+"assistant_permissions_grant_all_of_them" = "Ok";
+"assistant_permissions_skip_permissions" = "Hazlo más tarde";
+"assistant_permissions_title" = "Conceder permisos";
+"assistant_qr_code_invalid_toast" = "Código QR no válido!";
+"assistant_scan_qr_code" = "Escanear código QR";
+"assistant_sip_account_transport_protocol" = "Transporte";
+"assistant_third_party_sip_account_warning_ok" = "Yo entiendo";
+"authentication_id" = "ID de autenticación (si es diferente)";
+"bottom_navigation_calls_label" = "Llamadas";
+"bottom_navigation_contacts_label" = "Contactos";
+"bottom_navigation_conversations_label" = "Conversaciones";
+"bottom_navigation_meetings_label" = "Reuniones";
+"bottom_navigation_team_label" = "Equipo";
+"bottom_navigation_dialpad_label" = "Teclado";
+"team_list_empty" = "No hay compañeros configurados";
+"team_member_state_free" = "Libre";
+"team_member_state_in_call" = "En llamada";
+"team_member_state_unknown" = "Desconocido";
+"call_stats_media_encryption_title" = "Cifrado de medios";
+"conference_layout_grid" = "Mosaico";
+"contact_call_action" = "Llamar";
+"contact_details_delete" = "Eliminar";
+"conversation_action_call" = "Llamar";
+"conversation_action_mark_as_read" = "Marcar como leído";
+"conversation_ephemeral_messages_duration_disabled" = "Deshabilitado";
+"dialog_accept" = "Aceptar";
+"dialog_call" = "Llamar";
+"dialog_cancel" = "Cancelar";
+"dialog_continue" = "Continuar";
+"dialog_deny" = "Denegar";
+"dialog_install" = "Instalar";
+"dialog_yes" = "Si";
+"drawer_menu_account_connection_status_cleared" = "Deshabilitado";
+"drawer_menu_account_connection_status_connected" = "Conectado";
+"drawer_menu_account_connection_status_failed" = "Error";
+"drawer_menu_account_connection_status_progress" = "Conectando…";
+"drawer_menu_add_account" = "Agregar una cuenta";
+"drawer_menu_manage_account" = "Administrar el perfil";
+"drawer_menu_no_account_configured_yet" = "Cuenta no configurada aun";
+"Error" = "Error";
+"help_about_advanced_title" = "Avanzado";
+"help_about_check_for_update" = "Comprobar actualización";
+"help_about_privacy_policy_title" = "Política de privacidad";
+"help_about_user_guide_subtitle" = "Aprenda a dominar todas las funciones de la aplicación, paso a paso.";
+"help_about_version_title" = "Versión";
+"help_dialog_update_available_title" = "Actualización disponible";
+"help_error_checking_version_toast_message" = "Se produjo un error al buscar actualizaciones";
+"help_quit_title" = "Salir de la aplicación";
+"help_title" = "Ayuda";
+"help_troubleshooting_app_version_title" = "Versión de la aplicación";
+"help_troubleshooting_clean_logs" = "Limpiar registros";
+"help_troubleshooting_clear_native_friends_in_database" = "Borrar contactos importados de la libreta de direcciones nativa";
+"help_troubleshooting_debug_logs_cleaned_toast_message" = "Se han limpiado los registros de depuración";
+"help_troubleshooting_debug_logs_upload_error_toast_message" = "No se pudieron cargar los registros de depuración";
+"help_troubleshooting_firebase_project_title" = "ID del proyecto de Firebase";
+"help_troubleshooting_print_logs_in_logcat" = "Imprimir registros en logcat";
+"help_troubleshooting_sdk_version_title" = "Versión SDK";
+"help_troubleshooting_share_logs" = "Compartir registros";
+"help_troubleshooting_share_logs_dialog_title" = "Compartir enlaces de registros de depuración usando…";
+"help_troubleshooting_show_config_file" = "Mostrar configuracion";
+"help_troubleshooting_title" = "Solución de problemas";
+"help_version_up_to_date_toast_message" = "Su versión esta actualizada";
+"Interoperable mode" = "Modo interoperable";
+"manage_account_add_picture" = "Agregar una imagen";
+"manage_account_delete" = "Cerrar sesión";
+"manage_account_details_title" = "Detalles";
+"manage_account_device_remove" = "Remover";
+"manage_account_devices_title" = "Dispositivos";
+"manage_account_edit_picture" = "Editar imagen";
+"manage_account_international_prefix" = "Prefijo internacional";
+"manage_account_no_device" = "No se encontró ningún dispositivo…";
+"manage_account_remove_picture" = "Remover imagen";
+"manage_account_settings" = "Configuración de la cuenta";
+"manage_account_status_cleared_summary" = "La cuenta ha sido desactivada, no recibirás ninguna llamada ni mensaje.";
+"manage_account_status_connected_summary" = "Esta cuenta está en línea, cualquiera puede llamarte.";
+"manage_account_status_failed_summary" = "Error al conectar la cuenta, comprueba tu configuración.";
+"manage_account_status_progress_summary" = "La cuenta se está conectando al servidor, por favor espere…";
+"manage_account_title" = "Administrar cuenta";
+"meeting_waiting_room_cancel" = "Cancelar";
+"menu_delete_selected_item" = "Eliminar";
+"menu_reply_to_chat_message" = "Responder";
+"message_delivery_info_error_title" = "Error";
+"next" = "Siguiente";
+"notification_missed_call_title" = "Llamada perdida";
+"notification_earpiece_enforcement_message" = "Utilice únicamente el auricular. Las demás salidas de audio están desactivadas.";
+"or" = "o";
+"password" = "Clave";
+"phone_number" = "Número de teléfono";
+"settings_advanced_accept_early_media_title" = "Acepta los primeros medios de comunicación";
+"settings_advanced_allow_outgoing_early_media_title" = "Permitir la salida temprana de medios";
+"settings_advanced_audio_codecs_title" = "Códecs de audio";
+"settings_advanced_audio_devices_title" = "Dispositivos de audio";
+"settings_advanced_device_id" = "Identificación de Dispositivo";
+"settings_advanced_device_id_hint" = "Solo caracteres alfanuméricos";
+"settings_advanced_download_apply_remote_provisioning" = "Descargar y aplicar";
+"settings_advanced_input_audio_device_title" = "Dispositivo de audio de entrada predeterminado";
+"settings_advanced_media_encryption_mandatory_title" = "Cifrado obligatorio de los medios de comunicación";
+"settings_advanced_output_audio_device_title" = "Dispositivo de salida de audio predeterminado";
+"settings_advanced_remote_provisioning_url" = "URL de aprovisionamiento remoto";
+"settings_advanced_title" = "Configuración avanzada";
+"settings_advanced_upload_server_url" = "URL del servidor para compartir archivos";
+"settings_advanced_video_codecs_title" = "Códecs de video";
+"settings_calls_auto_record_title" = "Iniciar automáticamente la grabación de llamadas";
+"settings_calls_calibrate_echo_canceller_done_no_echo" = "sin eco";
+"settings_calls_calibrate_echo_canceller_failed" = "fallido";
+"settings_calls_calibrate_echo_canceller_in_progress" = "en progreso";
+"settings_calls_calibrate_echo_canceller_title" = "Calibrar el cancelador de eco";
+"settings_calls_adaptive_rate_control_title" = "Control de velocidad adaptativo";
+"contact_details_no_device_found" = "No se encontró ningún dispositivo…";
+"conversation_menu_search_in_messages" = "Buscar";
+"dialog_do_not_show_anymore" = "No mostrar este mensaje más";
+"dialog_confirm" = "Confirmar";
+"dialog_understood" = "Entendido";
+"settings_advanced_create_e2e_encrypted_conferences_title" = "Cree reuniones y llamadas grupales con cifrado de extremo a extremo";
+"settings_advanced_logs_upload_server_url" = "URL del servidor para compartir registros";
+"settings_contacts_ldap_error_toast" = "Se produjo un error ¡el servidor LDAP no se guardó!";
+"settings_contacts_ldap_empty_server_error_toast" = "La URL del servidor no puede estar vacía";
+"settings_developer_title" = "Configuración del desarrollador";
+"settings_developer_show_title" = "Mostrar configuración del desarrollador";
+"settings_developer_enabled_toast" = "Configuración de desarrollador habilitada";
+"settings_developer_already_enabled_toast" = "Configuración de desarrollador ya habilitada";
+"settings_developer_clear_native_friends_in_database_title" = "Borrar contactos importados de la libreta de direcciones nativa";
+"early_push_missed_call_title" = "Llamada perdida";
+"conversation_info_delete_history_confirm" = "Eliminar";
+"conversation_info_delete_chatroom_confirm" = "Eliminar";
+
+
+/* =============================================================
+   Gastecom Softphone — String overrides para Localizable.strings
+   Copiar estas líneas al FINAL de:
+     Linphone/Localizable/en.lproj/Localizable.strings
+     Linphone/Localizable/es.lproj/Localizable.strings
+   ============================================================= */
+
+/* App identity */
+"app_name" = "Gastecom";
+
+/* Support & contact */
+"help_advanced_send_debug_logs_email_address" = "soporte@gastecom.es";
+
+/* URLs — todas apuntan a Gastecom */
+"website_contact_url" = "https://gastecom.es";
+"website_download_url" = "https://gastecom.es";
+"website_user_guide_url" = "https://gastecom.es/politica-de-privacidad/";
+"website_privacy_policy_url" = "https://gastecom.es/politica-de-privacidad-softphone/";
+"website_terms_and_conditions_url" = "https://gastecom.es/aviso-legal/";
+"web_platform_register_email_url" = "https://gastecom.es";
+"web_platform_forgotten_password_url" = "https://gastecom.es";
+"website_translate_weblate_url" = "https://gastecom.es";
+"website_open_source_licences_usage_url" = "https://gastecom.es";
+"assistant_web_platform_link" = "gastecom.es";
+"assistant_linphone_contact_us_link" = "gastecom.es";
+
+/* Bienvenida */
+"welcome_page_subtitle" = "a %@";
+"welcome_page_1_message" = "Tu aplicación de comunicaciones empresariales, siempre conectada.";
+"welcome_page_2_message" = "Tus comunicaciones están protegidas con cifrado extremo a extremo.";
+"welcome_page_3_message" = "Llamadas, vídeo y mensajería desde una sola app, donde estés.";
+
+/* Invite SMS */
+"contact_sms_invite_content" = "¡Hola! Únete a Gastecom. Contacta en gastecom.es";
+
+/* About */
+"help_about_open_source_licenses_subtitle" = "© Belledonne Communications 2010-2025";
+
+/* Third-party warning — adaptar a Gastecom */
+"assistant_third_party_sip_account_warning_explanation" = "Estás configurando una cuenta SIP de terceros.\n\nAlgunas funciones avanzadas pueden no estar disponibles.\n\nSi necesitas ayuda, contacta con soporte@gastecom.es";
+"assistant_third_party_sip_account_create_linphone_account" = "Usar cuenta Gastecom";
+
+/* About screen */
+"help_about_title" = "Sobre Gastecom";
+"help_about_user_guide_title" = "Guía de usuario Gastecom";
+"help_about_privacy_policy_subtitle" = "Qué información recoge y usa Gastecom";
+"help_about_contribute_translations_title" = "Contribuir a las traducciones de Gastecom";
+
+/* Account management */
+"manage_account_dialog_remove_account_message" = "Si deseas eliminar tu cuenta permanentemente, contacta con soporte@gastecom.es";
+"manage_account_dialog_international_prefix_help_message" = "Selecciona tu país para que Gastecom pueda identificar tus contactos.";
+
+/* E2E encryption */
+"conversation_end_to_end_encrypted_bottom_sheet_message" = "Gracias a la tecnología de cifrado extremo a extremo de Gastecom, la confidencialidad de mensajes, llamadas y reuniones está garantizada. Nadie puede descifrar los datos intercambiados, ni siquiera nosotros.";
+"conversation_end_to_end_encrypted_bottom_sheet_link" = "https://gastecom.es";
+
+/* SIP address display */
+"sip.linphone.org" = "Gastecom";
+
+/* Permisos y login */
+"assistant_forgotten_password" = "¿Contraseña olvidada?";
+"assistant_permissions_subtitle" = "Para disfrutar de %@ necesitamos que nos concedas los siguientes permisos:";
+"assistant_permissions_post_notifications_title" = "**Notificaciones:** Para ser informado cuando recibas un mensaje o llamada.";
+"assistant_permissions_read_contacts_title" = "**Leer contactos:** Para mostrar tus contactos y saber quién usa %@.";
+"assistant_permissions_record_audio_title" = "**Grabar audio:** Para que tu interlocutor pueda escucharte y para grabar mensajes de voz.";
+"assistant_permissions_access_camera_title" = "**Acceso a cámara:** Para capturar vídeo durante videollamadas y conferencias.";
+
+"welcome_carousel_skip" = "Omitir";
+
+// --- Traducción completa Gastecom ---
+
+// Claves literales que deben permanecer igual
+"**%@**" = "**%@**";
+"DTLS" = "DTLS";
+"Default" = "Predeterminado";
+"Default mode" = "Modo predeterminado";
+"GC_MSG" = "Has sido añadido a un chat";
+"IM_MSG" = "Has recibido un mensaje";
+"Interoperable" = "Interoperable";
+"New message" = "Nuevo mensaje";
+"None" = "Ninguno";
+"SRTP" = "SRTP";
+"TCP" = "TCP";
+"TLS" = "TLS";
+"UDP" = "UDP";
+"Voicemail" = "Buzón de voz";
+"ZRTP" = "ZRTP";
+"sip_address" = "Dirección SIP";
+
+// Historial de llamadas
+"history_title" = "Historial";
+"history_list_empty_history" = "Sin llamadas por el momento…";
+"history_list_empty_with_filter_history" = "Ninguna llamada coincide con la búsqueda";
+"history_call_start_title" = "Nueva llamada";
+"history_call_start_search_bar_filter_hint" = "Buscar contacto o historial";
+"history_call_start_create_group_call" = "Crear llamada grupal";
+"history_dialog_delete_all_call_logs_title" = "¿Eliminar todo el historial?";
+"history_dialog_delete_all_call_logs_message" = "Todas las llamadas serán eliminadas del historial";
+"history_group_call_start_dialog_set_subject" = "Asunto de la llamada grupal";
+"history_group_call_start_dialog_subject_hint" = "Asunto";
+
+// Conversaciones / Mensajes
+"conversations_list_empty" = "Sin conversaciones por el momento…";
+"conversations_files_waiting_to_be_shared_single" = "1 archivo pendiente de enviar";
+"conversations_files_waiting_to_be_shared_multiple" = "%@ archivos pendientes de enviar";
+"new_conversation_title" = "Nueva conversación";
+"new_conversation_create_group" = "Crear conversación grupal";
+"new_conversation_search_bar_filter_hint" = "Buscar contacto";
+
+// Lista de llamadas
+"calls_list_title" = "Lista de llamadas";
+"calls_count_label" = "%@ llamadas";
+"calls_list_dialog_merge_into_conference_title" = "¿Combinar en conferencia?";
+"calls_list_dialog_merge_into_conference_label" = "Crear conferencia";
+
+// Acciones de llamada
+"call_action_hang_up" = "Colgar";
+"call_action_pause_call" = "Pausar";
+"call_action_resume_call" = "Reanudar";
+"call_action_record_call" = "Grabar";
+"call_action_show_dialer" = "Teclado";
+"call_action_show_messages" = "Mensajes";
+"call_action_start_new_call" = "Nueva llamada";
+"call_action_go_to_calls_list" = "Lista de llamadas";
+"call_action_change_layout" = "Diseño";
+"call_action_blind_transfer" = "Transferir";
+"call_action_attended_transfer" = "Transferencia asistida";
+
+// Estado de llamada
+"call_state_connected" = "Activa";
+"call_state_paused" = "Pausada";
+"call_state_paused_by_remote" = "Pausada por el interlocutor";
+"call_state_resuming" = "Reanudando…";
+"call_audio_incoming" = "Llamada entrante";
+"call_outgoing" = "Llamada saliente";
+"call_is_being_recorded" = "La llamada está siendo grabada";
+"call_has_been_recorded" = "La grabación se ha guardado";
+"call_history_deleted_toast" = "Historial eliminado";
+"call_waiting_for_encryption_info" = "Esperando cifrado…";
+"call_not_encrypted" = "La llamada no está cifrada";
+
+// Cifrado de llamadas
+"call_zrtp_end_to_end_encrypted" = "Cifrado extremo a extremo por ZRTP";
+"call_zrtp_point_to_point_encrypted" = "Cifrado punto a punto por ZRTP";
+"call_srtp_point_to_point_encrypted" = "Cifrado punto a punto por SRTP";
+"call_conference_end_to_end_encrypted" = "Cifrado extremo a extremo";
+"call_zrtp_sas_validation_required" = "Validación requerida";
+"call_zrtp_sas_validation_skip" = "Omitir";
+"call_do_zrtp_sas_validation_again" = "Volver a validar ZRTP SAS";
+"call_can_be_trusted_toast" = "Dispositivo autenticado";
+
+// ZRTP diálogos
+"call_dialog_zrtp_validate_trust_title" = "Validar dispositivo";
+"call_dialog_zrtp_validate_trust_message" = "Por tu seguridad, necesitamos autenticar el dispositivo. Intercambiad los códigos:";
+"call_dialog_zrtp_validate_trust_warning_message" = "Por tu seguridad, necesitamos reautenticar el dispositivo. Volved a intercambiar los códigos:";
+"call_dialog_zrtp_validate_trust_local_code_label" = "Tu código:";
+"call_dialog_zrtp_validate_trust_remote_code_label" = "Código del interlocutor:";
+"call_dialog_zrtp_validate_trust_letters_do_not_match" = "No coinciden";
+"call_dialog_zrtp_security_alert_title" = "Alerta de seguridad";
+"call_dialog_zrtp_security_alert_message" = "¡La confidencialidad de esta llamada puede estar comprometida!";
+"call_dialog_zrtp_security_alert_try_again" = "Reintentar";
+
+// Estadísticas de llamada
+"call_stats_audio_title" = "Audio";
+"call_stats_video_title" = "Vídeo";
+
+// Transferencia de llamada
+"call_transfer_current_call_title" = "Transferir %@ a…";
+"call_transfer_active_calls_label" = "Llamadas activas";
+"call_transfer_no_active_call_label" = "Sin otras llamadas";
+"call_transfer_confirm_dialog_tittle" = "Confirmar transferencia";
+"call_transfer_confirm_dialog_message" = "Vas a transferir la llamada de %1$@ a %2$@.";
+"call_transfer_in_progress_toast" = "Transfiriendo llamada…";
+"call_transfer_successful_toast" = "Llamada transferida correctamente";
+"call_transfer_failed_toast" = "Error al transferir la llamada";
+
+// Conferencia
+"conference_action_show_participants" = "Participantes";
+"conference_action_screen_sharing" = "Compartir pantalla";
+"conference_call_empty" = "Esperando a otros participantes…";
+"conference_failed_to_create_group_call_toast" = "Error al crear la llamada grupal";
+"conference_layout_active_speaker" = "Ponente activo";
+"conference_layout_audio_only" = "Solo audio";
+"conference_name_error" = "Error en el nombre de la conferencia";
+"conference_participant_joining_text" = "Uniéndose…";
+"conference_participant_paused_text" = "Pausado";
+"conference_share_link_title" = "Compartir invitación";
+
+// Contactos
+"contacts_list_all_contacts_title" = "Todos los contactos";
+"contacts_list_favourites_title" = "Favoritos";
+"contacts_list_empty" = "Sin contactos por el momento…";
+"contacts_list_filter_popup_see_all" = "Ver todos";
+"contacts_list_filter_popup_see_linphone_only" = "Ver contactos %@";
+"contacts_list_filter_popup_see_sip_only" = "Ver contactos SIP";
+"contact_new_title" = "Nuevo contacto";
+"contact_edit_title" = "Editar contacto";
+"contact_deleted_toast" = "Contacto eliminado";
+"contact_details_edit" = "Editar";
+"contact_details_share" = "Compartir";
+"contact_details_add_to_favourites" = "Añadir a favoritos";
+"contact_details_remove_from_favourites" = "Quitar de favoritos";
+"contact_details_actions_title" = "Otras acciones";
+"contact_details_numbers_and_addresses_title" = "Teléfonos y direcciones SIP";
+"contact_details_trust_title" = "Confianza";
+"contact_details_trusted_devices_count" = "Dispositivos de confianza:";
+"contact_device_without_name" = "Dispositivo sin nombre";
+"contact_message_action" = "Mensaje";
+"contact_video_call_action" = "Videollamada";
+"contact_make_call_check_device_trust" = "Verificar";
+"contact_dialog_delete_title" = "¿Eliminar %@?";
+"contact_dialog_delete_message" = "Este contacto se eliminará definitivamente.";
+"contact_dialog_pick_phone_number_or_sip_address_title" = "Elige un número o dirección SIP";
+"contact_dialog_increase_trust_level_title" = "Aumentar nivel de confianza";
+"contact_dialog_increase_trust_level_message" = "Vas a llamar al dispositivo %2$@ de %1$@.\n¿Quieres realizar la llamada?";
+"contact_dialog_devices_trust_help_title" = "Nivel de confianza";
+"contact_dialog_devices_trust_help_message" = "Verifica todos los dispositivos de tu contacto para asegurarte de que las comunicaciones son seguras.\nCuando todos estén verificados, alcanzarás el máximo nivel de confianza.";
+"contact_editor_first_name" = "Nombre";
+"contact_editor_last_name" = "Apellidos";
+"contact_editor_company" = "Empresa";
+"contact_editor_job_title" = "Cargo";
+"contact_editor_dialog_abort_confirmation_title" = "¿No guardar cambios?";
+"contact_editor_dialog_abort_confirmation_message" = "Se perderán todos los cambios";
+
+// Conversación / Chat
+"conversation_text_field_hint" = "Escribe un mensaje…";
+"conversation_action_mute" = "Silenciar";
+"conversation_action_unmute" = "Activar sonido";
+"conversation_action_delete" = "Eliminar conversación";
+"conversation_action_leave_group" = "Salir del grupo";
+"conversation_action_configure_ephemeral_messages" = "Mensajes efímeros";
+"conversation_add_participants_title" = "Añadir participantes";
+"conversation_composing_label_single" = "%@ está escribiendo…";
+"conversation_composing_label_multiple" = "%@ están escribiendo…";
+"conversation_details_media_documents_title" = "Multimedia y documentos";
+"conversation_menu_go_to_info" = "Info de la conversación";
+"conversation_menu_media_files" = "Multimedia";
+"conversation_menu_documents_files" = "Documentos";
+"conversation_menu_configure_ephemeral_messages" = "Mensajes efímeros";
+"conversation_document_list_title" = "Documentos compartidos";
+"conversation_media_list_title" = "Multimedia compartida";
+"conversation_no_media_found" = "Sin multimedia…";
+"conversation_no_document_found" = "Sin documentos…";
+"conversation_editing_message_title" = "Editando mensaje";
+"conversation_reply_to_message_title" = "Respondiendo a: ";
+"conversation_forward_message_title" = "Reenviar mensaje a…";
+"conversation_search_no_match_found" = "Sin resultados";
+"conversation_search_results_limit_reached_label" = "Límite de resultados alcanzado, refina la búsqueda";
+"conversation_pick_file_from_gallery_label" = "Abrir galería";
+"conversation_pick_any_file_label" = "Seleccionar archivo";
+"conversation_take_picture_label" = "Hacer foto";
+"conversation_failed_to_create_toast" = "Error al crear la conversación";
+"conversation_file_cant_be_opened_error_toast" = "No se puede abrir el archivo";
+"conversation_one_to_one_hidden_subject" = "Conversación privada";
+"conversation_participants_list_header" = "Participantes";
+"conversation_participants_list_empty" = "Sin participantes";
+"conversation_invalid_participant_due_to_security_mode_toast" = "No se puede crear la conversación con un participante de otro dominio por restricciones de seguridad";
+"conversation_warning_disabled_because_not_secured_title" = "¡Esta conversación no está cifrada!";
+"conversation_warning_disabled_because_not_secured_subtitle" = "Los mensajes no están cifrados extremo a extremo. No compartas información sensible.";
+
+// Conversación — info y gestión
+"conversation_info_add_participants_label" = "Añadir participantes";
+"conversation_info_participants_list_title" = "Miembros del grupo (%d)";
+"conversation_info_participant_is_admin_label" = "Administrador";
+"conversation_info_admin_menu_set_participant_admin" = "Dar permisos de admin";
+"conversation_info_admin_menu_unset_participant_admin" = "Quitar permisos de admin";
+"conversation_info_admin_menu_remove_participant" = "Eliminar del grupo";
+"conversation_info_menu_go_to_contact" = "Ver perfil del contacto";
+"conversation_info_menu_add_to_contacts" = "Añadir a contactos";
+"conversation_info_delete_history_action" = "Eliminar historial";
+"conversation_info_history_deleted_toast" = "Historial eliminado correctamente";
+"conversation_info_confirm_start_group_call_dialog_title" = "¿Iniciar llamada grupal?";
+"conversation_info_confirm_start_group_call_dialog_message" = "Todos los participantes recibirán una llamada.";
+"conversation_info_dialog_delete_all_call_logs_title" = "¿Eliminar todos los mensajes?";
+"conversation_info_dialog_delete_all_message" = "Se eliminarán todos los mensajes del historial";
+"conversation_info_dialog_delete_chatroom_title" = "¿Eliminar esta conversación?";
+"conversation_info_dialog_delete_chatroom_message" = "Esta conversación se eliminará definitivamente para ti.";
+"conversation_info_dialog_leave_chatroom_title" = "¿Salir de esta conversación?";
+"conversation_info_dialog_leave_chatroom_message" = "Saldrás de la conversación. Podrás ser añadido de nuevo más adelante.";
+"conversation_info_leave_chatroom_confirm" = "Salir";
+"conversation_info_chatroom_deleted_toast" = "Conversación eliminada";
+"conversation_info_left_chatroom_toast" = "Has salido de la conversación";
+
+// Conversación — diálogos
+"conversation_dialog_edit_subject" = "Editar asunto de la conversación";
+"conversation_dialog_set_subject" = "Establecer asunto de la conversación";
+"conversation_dialog_subject_hint" = "Asunto de la conversación";
+"conversation_dialog_delete_chat_message_title" = "¿Eliminar este mensaje?";
+"conversation_dialog_delete_for_everyone_label" = "Eliminar para todos";
+"conversation_dialog_delete_locally_label" = "Eliminar solo para mí";
+
+// Conversación — eventos del grupo
+"conversation_event_conference_created" = "Te has unido al grupo";
+"conversation_event_conference_destroyed" = "Has salido del grupo";
+"conversation_event_participant_added" = "%@ se ha unido";
+"conversation_event_participant_removed" = "%@ ha salido";
+"conversation_event_admin_set" = "%@ es administrador";
+"conversation_event_admin_unset" = "%@ ya no es administrador";
+"conversation_event_subject_changed" = "Nuevo asunto: %@";
+"conversation_event_device_added" = "Nuevo dispositivo de %@";
+"conversation_event_device_removed" = "Dispositivo de %@ eliminado";
+"conversation_event_ephemeral_messages_enabled" = "Mensajes efímeros activados";
+"conversation_event_ephemeral_messages_disabled" = "Mensajes efímeros desactivados";
+"conversation_event_ephemeral_messages_lifetime_changed" = "Duración efímera: %@";
+
+// Mensajes efímeros
+"conversation_ephemeral_messages_title" = "Mensajes efímeros";
+"conversation_ephemeral_messages_subtitle" = "Los mensajes nuevos se eliminarán automáticamente cuando todos los lean.\nElige una duración:";
+"conversation_ephemeral_messages_duration_one_minute" = "1 minuto";
+"conversation_ephemeral_messages_duration_one_hour" = "1 hora";
+"conversation_ephemeral_messages_duration_one_day" = "1 día";
+"conversation_ephemeral_messages_duration_three_days" = "3 días";
+"conversation_ephemeral_messages_duration_one_week" = "1 semana";
+"conversation_ephemeral_messages_duration_multiple_days" = "%d días";
+
+// Mensajes — estado y acciones
+"conversation_message_edited_label" = "Editado";
+"conversation_message_content_deleted_label" = "Este mensaje ha sido eliminado";
+"conversation_message_content_deleted_by_us_label" = "Has eliminado este mensaje";
+"conversation_message_deleted_toast" = "Mensaje eliminado";
+"conversation_message_forwarded_toast" = "Mensaje reenviado";
+"conversation_message_forward_cancelled_toast" = "Reenvío cancelado";
+"conversation_message_meeting_cancelled_label" = "¡La reunión ha sido cancelada!";
+"conversation_message_meeting_updated_label" = "La reunión ha sido actualizada";
+
+// Cifrado extremo a extremo
+"conversation_end_to_end_encrypted_event_title" = "Conversación cifrada extremo a extremo";
+"conversation_end_to_end_encrypted_event_subtitle" = "Los mensajes de esta conversación están cifrados E2E. Solo tu interlocutor puede descifrarlos.";
+"conversation_end_to_end_encrypted_bottom_sheet_title" = "Confidencialidad garantizada";
+
+// Menús contextuales
+"menu_copy_chat_message" = "Copiar";
+"menu_edit_chat_message" = "Editar";
+"menu_forward_chat_message" = "Reenviar";
+"menu_resend_chat_message" = "Reenviar";
+"menu_delete_history" = "Eliminar historial";
+"menu_copy_sip_address" = "Copiar dirección SIP";
+"menu_copy_phone_number" = "Copiar número";
+"menu_add_address_to_contacts" = "Añadir a contactos";
+"menu_see_existing_contact" = "Ver contacto";
+"menu_block_address" = "Bloquear dirección";
+"menu_block_number" = "Bloquear número";
+"menu_show_imdn" = "Estado de entrega";
+"menu_export_selected_item" = "Descargar";
+"menu_share_selected_item" = "Compartir";
+"menu_invite" = "Invitar";
+
+// Entrega de mensajes
+"message_delivery_info_sent_title" = "Enviado";
+"message_delivery_info_received_title" = "Recibido";
+"message_delivery_info_read_title" = "Leído";
+"message_forwarded_label" = "Reenviado";
+"message_copied_to_clipboard_toast" = "Mensaje copiado al portapapeles";
+"message_reaction_click_to_remove_label" = "Toca para eliminar";
+"message_reactions_info_all_title" = "Reacciones";
+"message_meeting_invitation_notification" = "Has sido invitado a una reunión";
+"message_meeting_invitation_updated_notification" = "La reunión ha sido actualizada";
+"message_meeting_invitation_cancelled_notification" = "La reunión ha sido cancelada";
+
+// Notificaciones
+"notification_chat_message_received_title" = "Mensaje recibido";
+"notification_chat_message_reaction_received" = "%@ reaccionó con %@ a: %@";
+"early_push_missed_call_body" = "Recibiste una llamada mientras el dispositivo estaba bloqueado.";
+"early_push_unknown_caller" = "Desconocido";
+"mwi_messages_are_waiting_single" = "1 nuevo mensaje de voz";
+"mwi_messages_are_waiting_multiple" = "%@ nuevos mensajes de voz";
+"pending_notification_for_other_accounts_single" = "1 notificación para otra cuenta";
+"pending_notification_for_other_accounts_multiple" = "%@ notificaciones para otras cuentas";
+
+// Red y conexión
+"network_not_reachable" = "Sin conexión a internet";
+"network_reachable_again" = "Conexión restaurada";
+"connection_error_for_non_default_account" = "Error de conexión en cuenta(s)";
+"default_account_disabled" = "La cuenta seleccionada está desactivada";
+"drawer_menu_account_connection_status_refreshing" = "Actualizando…";
+
+// Reuniones / Meetings
+"meetings_list_empty" = "Sin reuniones por el momento…";
+"meetings_list_no_meeting_for_today" = "Sin reuniones para hoy";
+"meeting_schedule_title" = "Nueva reunión";
+"meeting_schedule_edit_title" = "Editar reunión";
+"meeting_schedule_subject_hint" = "Añadir título…";
+"meeting_schedule_description_title" = "Descripción";
+"meeting_schedule_description_hint" = "Añadir descripción";
+"meeting_schedule_meeting_label" = "Reunión";
+"meeting_schedule_add_participants_title" = "Añadir participantes";
+"meeting_schedule_send_invitations_title" = "Enviar invitación a participantes";
+"meeting_schedule_timezone_title" = "Zona horaria";
+"meeting_schedule_pick_start_date_title" = "Elegir fecha de inicio";
+"meeting_schedule_pick_start_time_title" = "Elegir hora de inicio";
+"meeting_schedule_pick_end_time_title" = "Elegir hora de fin";
+"meeting_schedule_cancel_dialog_title" = "¿Cancelar la reunión?";
+"meeting_schedule_cancel_dialog_message" = "¿Quieres cancelar la reunión y notificar a todos los participantes?";
+"meeting_schedule_delete_dialog_title" = "¿Eliminar la reunión?";
+"meeting_schedule_delete_dialog_message" = "¿Quieres eliminar la reunión?";
+"meeting_schedule_failed_no_subject_or_participant_toast" = "Se requiere un asunto y al menos un participante para crear una reunión";
+"meeting_info_join_title" = "Unirse ahora";
+"meeting_info_organizer_label" = "Organizador";
+"meeting_info_delete" = "Eliminar reunión";
+"meeting_info_created_toast" = "Reunión creada";
+"meeting_info_updated_toast" = "Reunión actualizada";
+"meeting_info_deleted_toast" = "Reunión eliminada";
+"meeting_info_cancelled_toast" = "Reunión cancelada";
+"meeting_info_export_as_calendar_event" = "Crear evento en calendario";
+"meeting_exported_as_calendar_event" = "Reunión añadida al calendario";
+"meeting_failed_to_schedule_toast" = "Error al programar la reunión";
+"meeting_failed_to_edit_toast" = "Error al editar la reunión";
+"meeting_failed_to_send_invites_toast" = "Error al enviar las invitaciones";
+"meeting_failed_to_send_part_of_invites_toast" = "Error al enviar invitaciones a algunos participantes";
+"failed_meeting_ics_invitation_not_sent_toast" = "No se pudo enviar la invitación ICS a ningún participante";
+"meeting_call_remove_no_participants" = "Sin participantes por el momento…";
+"meeting_call_remove_participant_confirmation_title" = "Eliminar participante";
+"meeting_call_remove_participant_confirmation_message" = "¿Seguro que quieres eliminar a %@?";
+"meeting_waiting_room_join" = "Unirse";
+"meeting_waiting_room_joining_title" = "Conexión en curso";
+"meeting_waiting_room_joining_subtitle" = "Te unirás en un momento";
+
+// Ajustes de cuenta
+"account_settings_sip_proxy_url_title" = "URI del registrador";
+"account_settings_outbound_proxy_title" = "Proxy SIP saliente";
+"account_settings_expire_title" = "Expiración (segundos)";
+"account_settings_avpf_title" = "AVPF";
+"account_settings_push_notification_title" = "Permitir notificaciones push";
+"account_settings_push_notification_not_available_title" = "Las notificaciones push no están disponibles";
+"account_settings_voicemail_uri_title" = "URI del buzón de voz";
+"account_settings_mwi_uri_title" = "URI del servidor MWI";
+"account_settings_conference_factory_uri_title" = "URI de conferencia";
+"account_settings_audio_video_conference_factory_uri_title" = "URI de conferencia AV";
+"account_settings_lime_server_url_title" = "URL del servidor de claves E2E";
+"account_settings_nat_policy_title" = "Ajustes NAT";
+"account_settings_stun_server_url_title" = "URL del servidor STUN/TURN";
+"account_settings_enable_ice_title" = "Activar ICE";
+"account_settings_enable_turn_title" = "Activar TURN";
+"account_settings_turn_username_title" = "Usuario TURN";
+"account_settings_turn_password_title" = "Contraseña TURN";
+"account_settings_bundle_mode_title" = "Modo Bundle";
+"account_settings_ccmp_server_url_title" = "URL del servidor CCMP";
+"account_settings_cpim_in_basic_conversations_title" = "Usar CPIM en conversaciones básicas";
+"account_settings_im_encryption_mandatory_title" = "Cifrado de mensajes obligatorio";
+"account_settings_apply_international_prefix_title" = "Formatear números con prefijo internacional";
+"account_settings_replace_plus_by_00_title" = "Reemplazar + por 00 en números";
+"account_settings_update_password_title" = "Actualizar contraseña";
+"account_settings_dialog_invalid_password_title" = "Autenticación requerida";
+"account_settings_dialog_invalid_password_message" = "La conexión falló porque la autenticación es incorrecta para la cuenta \n%@.\n\nPuedes introducir la contraseña de nuevo o revisar la configuración de la cuenta.";
+
+// Gestión de cuenta
+"manage_account_outbound_proxy" = "Proxy SIP saliente";
+"manage_account_device_last_connection" = "Última conexión:";
+"manage_account_dialog_outbound_proxy_help_message" = "Si este campo está relleno, el proxy saliente se activará automáticamente. Déjalo vacío para desactivarlo.";
+"manage_account_dialog_remove_account_title" = "¿Cerrar sesión?";
+
+
+// Asistente
+"assistant_invalid_uri_toast" = "URI no válida";
+"assistant_account_creation_sms_confirmation_explanation" = "Hemos enviado un código de verificación a %@. Introdúcelo aquí:";
+"assistant_dialog_confirm_phone_number_message" = "¿Confirmas que quieres usar el número %@?";
+"assistant_dialog_general_terms_and_privacy_policy_message" = "Al continuar, aceptas %@ y %@.";
+
+// Ajustes
+"settings_advanced_calls" = "Ajustes avanzados de llamadas";
+"settings_advanced_early_media_title" = "Early media";
+"settings_calls_calibrate_echo_canceller_done" = "%@ ms";
+"settings_contacts_carddav_realm_title" = "Realm de autenticación";
+"settings_contacts_carddav_use_as_default_title" = "Guardar nuevos contactos aquí";
+"settings_contacts_carddav_deleted_toast" = "Cuenta CardDAV eliminada";
+"settings_contacts_carddav_mandatory_field_not_filled_toast" = "Rellena al menos el nombre y la URL del servidor";
+"settings_contacts_carddav_sync_successful_toast" = "Sincronización correcta";
+"settings_contacts_ldap_enabled_title" = "Activado";
+"settings_contacts_ldap_server_url_title" = "URL del servidor (obligatorio)";
+"settings_contacts_ldap_bind_dn_title" = "DN de enlace";
+"settings_contacts_ldap_search_base_title" = "Base de búsqueda (obligatorio)";
+"settings_contacts_ldap_search_filter_title" = "Filtro";
+"settings_contacts_ldap_max_results_title" = "Máx. resultados";
+"settings_contacts_ldap_min_characters_title" = "Mín. caracteres para buscar";
+"settings_contacts_ldap_request_delay_title" = "Retardo entre consultas (ms)";
+"settings_contacts_ldap_request_timeout_title" = "Tiempo de espera (s)";
+"settings_contacts_ldap_name_attributes_title" = "Atributos de nombre";
+"settings_contacts_ldap_sip_attributes_title" = "Atributos SIP";
+"settings_contacts_ldap_sip_domain_title" = "Dominio SIP";
+"settings_contacts_ldap_use_tls_title" = "Usar TLS";
+"settings_conversations_hide_message_content_in_notif_title" = "No mostrar el contenido en notificaciones iOS";
+"settings_developer_enable_advanced_call_stats_title" = "Mostrar estadísticas avanzadas de llamada";
+"settings_developer_enable_vu_meters_title" = "Activar vúmetros durante la llamada";
+"settings_developer_clear_orphan_auth_info_title" = "Limpiar autenticaciones sin cuenta asociada";
+"settings_developer_cleared_auth_info_toast" = "Autenticaciones huérfanas eliminadas";
+"settings_developer_no_auth_info_removed_toast" = "No se encontraron autenticaciones huérfanas";
+"settings_developer_cleared_native_friends_in_database_toast" = "Contactos importados eliminados";
+"settings_developer_clear_native_friends_in_database_subtitle" = "Se importarán de nuevo al arrancar la app, salvo que retires el permiso de contactos";
+"settings_developer_push_compatible_domains_list_title" = "Dominios compatibles con push (separados por comas)";
+"settings_developer_one_more_click_required_toast" = "1 clic más para activar los ajustes de desarrollador";
+"settings_developer_two_more_clicks_required_toast" = "2 clics más para activar los ajustes de desarrollador";
+"settings_meetings_show_past_meetings_title" = "Mostrar reuniones pasadas";
+
+// Grabaciones
+"recordings_title" = "Grabaciones";
+"recordings_list_empty" = "Sin grabaciones por el momento…";
+
+// URI handler
+"uri_handler_call_failed_toast" = "Error en la llamada";
+"uri_handler_bad_call_address_failed_toast" = "No se puede llamar, dirección no válida";
+"uri_handler_config_failed_toast" = "Error en la configuración";
+"uri_handler_bad_config_address_failed_toast" = "No se puede recuperar la configuración, dirección no válida";
+"qr_code_validated" = "Código QR validado";
+
+// General
+"dialog_close" = "Cerrar";
+"list_filter_no_result_found" = "Sin resultados…";
+"generic_address_picker_suggestions_list_title" = "Sugerencias";
+"selected_participants_count" = "%@ participantes seleccionados";
+"operation_in_progress_overlay" = "Operación en curso, espera por favor";
+"debug_logs_copied_to_clipboard_toast" = "Registros copiados al portapapeles";
+"text_copied_to_clipboard_toast" = "Texto copiado al portapapeles";
+"picker_categories" = "Categorías";
+"username_error" = "Error en el nombre de usuario";
+
+"help_dialog_update_available_message" = "Hay una nueva versión %@ disponible. ¿Quieres actualizar?";
+"help_about_open_source_licenses_title" = "Licencia Pública General GNU v3.0";
+
+
+"call_audio_device_type_bluetooth" = "Bluetooth (%@)";
+"call_audio_device_type_earpiece" = "Auricular";
+"call_audio_device_type_headphones" = "Auriculares";
+"call_audio_device_type_speaker" = "Altavoz";
+
+/* Gastecom: distinguir los tres fallos de aprovisionamiento */
+"gastecom_provisioning_host_rejected_toast" = "Este QR no es de Gastecom. Pide uno nuevo al tecnico.";
+"gastecom_provisioning_apply_failed_toast" = "Configuracion descargada pero no aplicada. Avisa al tecnico.";
+
+/* Completado el 2026-08-19 */
+"Ce mode vous permet d’être interopérable avec d’autres services SIP.\nVos communications seront chiffrées de point à point. " = "Este modo te permite ser compatible con otros servicios SIP.\nTus comunicaciones irán cifradas punto a punto.";
+"Chiffrement de bout en bout de tous vos échanges, grâce au mode default vos communications sont à l’abri des regards." = "Cifrado de extremo a extremo de todos tus intercambios: con el modo predeterminado, tus comunicaciones quedan a salvo de miradas ajenas.";
+"Personnalize your profil mode" = "Personaliza tu modo de perfil";
+"Temp Help" = "Ayuda temporal";
+"You will change this mode later" = "Podrás cambiar este modo más adelante";
+"gastecom_emergency_call_redirected" = "Las llamadas a emergencias no están disponibles en el softphone. Llama desde la app Teléfono del iPhone, por tu línea móvil.";

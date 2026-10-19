@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TFInternalTestingOnly</key>
+	<false/>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>es.gastecom.softphone</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>linphone-mention</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>es.gastecom.softphone</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>linphone-message</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>es.gastecom.softphone</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>linphone-config</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>es.gastecom.softphone</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>sip</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>es.gastecom.softphone</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>sips</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>es.gastecom.softphone</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>sip-linphone</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>es.gastecom.softphone</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>sips-linphone</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>es.gastecom.softphone</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>linphone-sip</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>es.gastecom.softphone</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>linphone-sips</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>es.gastecom.softphone</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>tel</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>es.gastecom.softphone</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>es.gastecom.softphone</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>es.gastecom.softphone</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>callto</string>
+			</array>
+		</dict>
+	</array>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Gastecom necesita acceso al micrófono para realizar y recibir llamadas de voz.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Gastecom necesita acceso a la cámara para realizar videollamadas.</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Gastecom puede acceder a tus contactos para facilitar las llamadas.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Gastecom puede acceder a tus fotos para compartirlas en mensajes.</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Gastecom necesita acceso a la red local para comunicación SIP.</string>
+	<key>NSSupportsSuddenTermination</key>
+	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>NotoSans-Light.ttf</string>
+		<string>NotoSans-Regular.ttf</string>
+		<string>NotoSans-Medium.ttf</string>
+		<string>NotoSans-SemiBold.ttf</string>
+		<string>NotoSans-Bold.ttf</string>
+		<string>NotoSans-ExtraBold.ttf</string>
+	</array>
+	<!-- Gastecom 2026-10-15: <false/>. Esta clave pregunta si la app usa cifrado
+	     NO EXENTO, no si empaqueta su propia biblioteca de cifrado. La app usa solo
+	     algoritmos estandar (TLS para SIP, SRTP/ZRTP para el audio, via mbedTLS),
+	     sin cifrado propietario, en una app de uso masivo: cifrado exento. El
+	     cuestionario de App Store Connect (15/10, algoritmos estandar, sin
+	     distribucion en Francia) lo confirma: no pide documentacion ni da codigo.
+	     La nota del 17/08 que decia que <false/> seria falso confundia ambas cosas.
+
+	     Sigue valido: NO usar ITSEncryptionExportComplianceCode heredado de
+	     Belledonne (b5cb085f-...): es una declaracion legal de otra empresa.
+
+	     ⚠️ Pendiente de cumplimiento (no es tramite de Apple): con cifrado estandar
+	     propio, lo habitual es presentar el informe ANUAL de autoclasificacion a
+	     la BIS de EE. UU. Confirmar con quien lleve el cumplimiento. -->
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+		<string>voip</string>
+		<string>audio</string>
+		<string>fetch</string>
+	</array>
+	<key>UILaunchScreen</key>
+	<false/>
+	<key>APP_GROUP_NAME</key>
+	<string>$(APP_GROUP_NAME)</string>
+</dict>
+</plist>
