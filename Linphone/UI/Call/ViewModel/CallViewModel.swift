@@ -30,7 +30,18 @@ import UserNotifications
 class CallViewModel: ObservableObject {
 	
 	static let TAG = "[CallViewModel]"
-	
+
+	// Gastecom: el boton Grabar no graba en el movil, pide a la centralita
+	// (IvozProvider / CommsMundi) que grabe con el codigo *2 por DTMF; la misma
+	// tecla otra vez la para. La app no sabe el estado real de la centralita:
+	// se recuerda por Call-ID (solo en la cola del core) para pintar el indicador.
+	static let pbxRecordDtmf = "*2"
+	static var pbxRecordingCallIds = Set<String>()
+
+	static func isPbxRecording(_ call: Call) -> Bool {
+		return pbxRecordingCallIds.contains(call.callLog?.callId ?? "")
+	}
+
 	var coreContext = CoreContext.shared
 	var telecomManager = TelecomManager.shared
 	var sharedMainViewModel = SharedMainViewModel.shared
@@ -343,7 +354,7 @@ class CallViewModel: ObservableObject {
 				}
 				
 				let micMuttedTmp = self.currentCall!.microphoneMuted || !core.micEnabled
-				let isRecordingTmp = self.currentCall!.params!.isRecording
+				let isRecordingTmp = self.currentCall!.params!.isRecording || CallViewModel.isPbxRecording(self.currentCall!)
 				let isPausedTmp = self.isCallPaused()
 				let timeElapsedTmp = self.currentCall?.duration ?? 0
 				
@@ -437,6 +448,9 @@ class CallViewModel: ObservableObject {
                         }
 					}
 				}, onStateChanged: { (call: Call, cstate: Call.State, _: String) in
+					if cstate == .End || cstate == .Error || cstate == .Released {
+						CallViewModel.pbxRecordingCallIds.remove(call.callLog?.callId ?? "")
+					}
 					// When streams actually start, re-evaluate videoDisplayed based on the
 					// now-negotiated currentParams. resetCallView() runs before StreamsRunning
 					// so createCallParams() may still show videoEnabled=false at that point.
@@ -1008,15 +1022,21 @@ class CallViewModel: ObservableObject {
 	func toggleRecording() {
 		coreContext.doOnCoreQueue { _ in
 			if self.currentCall != nil && self.currentCall!.params != nil {
-				if self.currentCall!.params!.isRecording {
-					Log.info("[CallViewModel] Stopping call recording")
-					self.currentCall!.stopRecording()
-				} else {
-					Log.info("[CallViewModel] Starting call recording \(self.currentCall!.params!.isRecording)")
-					self.currentCall!.startRecording()
+				let callId = self.currentCall!.callLog?.callId ?? ""
+				let isRecordingTmp = !CallViewModel.pbxRecordingCallIds.contains(callId)
+				Log.info("[CallViewModel] Sending \(CallViewModel.pbxRecordDtmf) to the PBX to \(isRecordingTmp ? "start" : "stop") call recording")
+				do {
+					try self.currentCall!.sendDtmfs(dtmfs: CallViewModel.pbxRecordDtmf)
+				} catch {
+					Log.error("[CallViewModel] Failed to send \(CallViewModel.pbxRecordDtmf): \(error)")
+					return
 				}
-				
-				let isRecordingTmp = self.currentCall!.params!.isRecording
+				if isRecordingTmp {
+					CallViewModel.pbxRecordingCallIds.insert(callId)
+				} else {
+					CallViewModel.pbxRecordingCallIds.remove(callId)
+				}
+
 				DispatchQueue.main.async {
 					self.isRecording = isRecordingTmp
 					

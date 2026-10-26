@@ -26,6 +26,7 @@ class AccountLoginViewModel: ObservableObject {
 	
 	@Published var username: String = ""
 	@Published var passwd: String = ""
+	static let gastecomSbcDomain = "sbcsoftphone.gastecom.es"
 	@Published var domain: String = "" // Gastecom: domain entered by user or via QR
 	@Published var displayName: String = ""
 	@Published var transportType: String = "TLS"
@@ -49,21 +50,29 @@ class AccountLoginViewModel: ObservableObject {
 			do {
 				let usernameWithDomain = self.username.split(separator: "@")
 				
+				// Gastecom (2026-10-22): usuario y dominio en variables locales (antes se
+				// cambiaban en el hilo principal de forma asincrona y esta funcion seguia
+				// usando los valores viejos). Sin dominio -> el SBC de Gastecom: un
+				// revisor de tienda (Google rechazo la Android 601006 por esto) escribe
+				// solo usuario y contrasena, y upstream lo mandaba a sip.linphone.org.
+				var username = self.username
+				var domain = self.domain
 				if usernameWithDomain.count > 1 {
+					domain = String(usernameWithDomain.last ?? "")
+					username = String(usernameWithDomain.first ?? "")
 					DispatchQueue.main.async {
-						self.domain = String(usernameWithDomain.last ?? "")
-						self.username = String(usernameWithDomain.first ?? "")
+						self.domain = domain
+						self.username = username
 					}
 				}
+				if domain.isEmpty {
+					domain = AccountLoginViewModel.gastecomSbcDomain
+				}
+				let esSbcGastecom = domain == AccountLoginViewModel.gastecomSbcDomain
 				
-				if self.domain != "" {
-					if let assistantLinphone = Bundle.main.path(forResource: "assistant_third_party_default_values", ofType: nil) {
-						core.loadConfigFromXml(xmlUri: assistantLinphone)
-					}
-				} else {
-					if let assistantLinphone = Bundle.main.path(forResource: "assistant_linphone_default_values", ofType: nil) {
-						core.loadConfigFromXml(xmlUri: assistantLinphone)
-					}
+				// Siempre los valores de cuenta SIP propia (SBC), nunca los de sip.linphone.org.
+				if let assistantLinphone = Bundle.main.path(forResource: "assistant_third_party_default_values", ofType: nil) {
+					core.loadConfigFromXml(xmlUri: assistantLinphone)
 				}
 				
 				// Get the transport protocol to use.
@@ -84,12 +93,12 @@ class AccountLoginViewModel: ObservableObject {
 				// ha1 is set to null as we are using the clear text password. Upon first register, the hash will be computed automatically.
 				// The realm will be determined automatically from the first register, as well as the algorithm
 				let authInfo = try Factory.Instance.createAuthInfo(
-					username: self.username,
+					username: username,
 					userid: self.authId,
 					passwd: self.passwd,
 					ha1: "",
 					realm: "",
-					domain: self.domain
+					domain: domain
 				)
 				
 				// Account object replaces deprecated ProxyConfig object
@@ -98,7 +107,7 @@ class AccountLoginViewModel: ObservableObject {
 				let accountParams = try core.createAccountParams()
 				
 				// A SIP account is identified by an identity address that we can construct from the username and domain
-				let identity = try Factory.Instance.createAddress(addr: String("sip:" + self.username + "@" + self.domain))
+				let identity = try Factory.Instance.createAddress(addr: String("sip:" + username + "@" + domain))
 				try accountParams.setIdentityaddress(newValue: identity)
 				
 				// We also need to configure where the proxy server is located
@@ -106,8 +115,11 @@ class AccountLoginViewModel: ObservableObject {
 				if (!self.sipProxyUrl.isEmpty) {
 					let server = self.sipProxyUrl.starts(with: "sip:") ? self.sipProxyUrl : String("sip:" + self.sipProxyUrl)
 					serverAddress = try Factory.Instance.createAddress(addr: server)
+				} else if esSbcGastecom {
+					// El SBC escucha TLS en 5091, no en el 5061 por defecto de sip:dominio por TLS.
+					serverAddress = try Factory.Instance.createAddress(addr: "sip:\(AccountLoginViewModel.gastecomSbcDomain):5091")
 				} else {
-					serverAddress = try Factory.Instance.createAddress(addr: String("sip:" + self.domain))
+					serverAddress = try Factory.Instance.createAddress(addr: String("sip:" + domain))
 				}
 				
 				// We use the Address object to easily set the transport protocol
@@ -119,6 +131,11 @@ class AccountLoginViewModel: ObservableObject {
 					let server = self.outboundProxy.starts(with: "sip:") ? self.outboundProxy : String("sip:" + self.outboundProxy)
 					routeAddress = try Factory.Instance.createAddress(addr: server)
 					try routeAddress.setTransport(newValue: transport)
+					try accountParams.setRoutesaddresses(newValue: [routeAddress])
+				} else if esSbcGastecom {
+					// Misma ruta que el aprovisionamiento por QR (reg_route del portal).
+					routeAddress = try Factory.Instance.createAddress(addr: "sip:\(AccountLoginViewModel.gastecomSbcDomain):5091;lr")
+					try routeAddress.setTransport(newValue: TransportType.Tls)
 					try accountParams.setRoutesaddresses(newValue: [routeAddress])
 				} else {
 					try accountParams.setRoutesaddresses(newValue: [])
